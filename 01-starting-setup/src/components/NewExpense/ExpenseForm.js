@@ -44,7 +44,8 @@ const ExpenseForm = (props) => {
 
     const expenseData = {
       title: enteredTitle,
-      amount: enteredAmount,
+      // 단항연산자 (+)를 통해 Number 타입으로 변경
+      amount: +enteredAmount,
       date: new Date(enteredDate)
     };
 
