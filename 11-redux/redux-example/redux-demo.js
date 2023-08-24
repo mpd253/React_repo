@@ -16,7 +16,7 @@ const counterReducer = (state = { counter: 0 }, action) => {
 
   return state;
 };
-
+ 
 // 저장소 생성하기
 const store = redux.createStore(counterReducer);
 
